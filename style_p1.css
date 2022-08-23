@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serifs;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background: #707070;
+    height: 80px;
+    width: 100vw;
+}
+
+a.logo {
+    color: #FFF;
+    font-size: 2em;
+    line-height: 80px;
+    margin: 0px 10vw;
+}
+
+label.pesquisa {
+    color: #FFF;
+    font-size: 1.2em;
+    line-height: 80px;
+    margin: 0px 10vw;
+}
+
+nav ul {
+    font-size: 1.2em;
+    list-style: none;
+}
+
+nav li {
+
+    display: inline-block;
+    line-height: 80px;
+    margin: 0px 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+a.logo:hover, label.pesquisa:hover, nav a:hover {
+    color: red;
+}
+
+section {
+    border: 1px solid #000;
+    margin: 0px 10vw;
+}
+
+.checkbtn {
+    font-size: 2em;
+    color: red;
+    line-height: 80px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+/*@media (max-width: 952px) {
+    label.logo {
+        font-size: 2em;
+        padding-left: 50px;
+    }
+
+    nav a {
+        font-size: 1em;
+    }
+}*/
+
+@media (max-width: 858px) {
+    nav ul {
+        display: none
+    };
+
+    .checkbtn {
+        display: block;
+    }
+}
