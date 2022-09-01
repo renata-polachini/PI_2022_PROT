@@ -18,7 +18,7 @@ nav {
     z-index: 1;
 }
 
-a.logo {
+.logo {
     color: #000;
     font-size: 2em;
     line-height: 8vh;
@@ -88,20 +88,14 @@ a.logo:hover, nav a:hover {
 #content {
     border: 1px solid #000;
     margin: 0 10vw;
-    height: 100vh;
-}
-
-#content div {
-    margin-top: 8vh;
-    border: 1px solid #000;
-    display: block;
+    height: 2000px;
 }
 
 #content h1 {
-    margin-bottom: 3vh;
-    text-align: center;
+    margin: 5vh 0;
     font-size: 2em;
     color: #257;
+    margin-top: 10vh;
 }
 
 #content p {
@@ -109,8 +103,26 @@ a.logo:hover, nav a:hover {
     width: 45%;
 }
 
-#content img {
-    border: 1px solid #000;
+.fonte_title {
+    text-align: center;
+}
+
+.fonte_img {
+    border: 1px solid red;
+}
+
+.fonte_img a {
+    text-decoration: none;
+    display: inline-block;
+    width: 18vw;
+    height: 36vh;
+    background: #257;
+    border-radius: 1.5em;
+}
+
+.fonte_img a:hover {
+    opacity: .8;
+    transition: .4s;
 }
 
 .checkbtn {
@@ -125,14 +137,64 @@ a.logo:hover, nav a:hover {
     display: none;
 }
 
+@media (max-width: 500px) {
+    .logo {
+        color: aqua;
+    }
+
+    #start .start_intro {
+        width: 100%;
+    }
+
+    #content p {
+        width: 100%;
+    }
+
+    .fonte_img a{
+        display: block;
+        width: 70vw;
+        height: 10vh;
+        margin-bottom: 1.5vw;
+        border-radius: 4em;
+    }
+
+    #start .buttom_down {
+        width: 10vw;
+    }
+}
+
+
 @media (max-width: 1100px) {
     nav ul {
         display: none
     };
+
+    .logo {
+        color: red;
+    }
 }
 
-@media (min-width: 600px) {
-    #content p {
-        color: red;
+@media (min-width: 1300px) {
+    .logo {
+        color: blue;
+    }
+
+    .img_fonte_r div {
+        height: 45vh;
+    }
+}
+
+@media (min-width: 1600px) {
+    .logo {
+        color: yellow;
+    }
+
+    .fonte_img div {
+        height: 50vh;
+        width: 15vw;
+    }
+
+    .fonte_title {
+        border-top: 20vh;
     }
 }
