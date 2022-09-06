@@ -54,7 +54,7 @@ a.logo:hover, nav a:hover {
 }
 
 #start {
-    border: 1px solid #000;
+    border: 1px solid #FFF;
     margin: 0 10vw;
     height: 100vh;
 }
@@ -88,7 +88,6 @@ a.logo:hover, nav a:hover {
 #content {
     border: 1px solid #000;
     margin: 0 10vw;
-    height: 2000px;
 }
 
 #content h1 {
@@ -107,10 +106,6 @@ a.logo:hover, nav a:hover {
     text-align: center;
 }
 
-.fonte_img {
-    border: 1px solid red;
-}
-
 .fonte_img a {
     text-decoration: none;
     display: inline-block;
@@ -123,6 +118,34 @@ a.logo:hover, nav a:hover {
 .fonte_img a:hover {
     opacity: .8;
     transition: .4s;
+}
+
+.fonte_img img {
+    justify-content: space-between;
+}
+
+.tipos_energy {
+    border: 1px solid #000;
+    margin: 0 10vw;
+    height: 2000px;
+}
+
+.tipos_energy h1 {
+    margin: 5vh 0;
+    font-size: 2em;
+    color: #257;
+    margin-top: 10vh;
+}
+
+.tipos_energy p {
+    margin-bottom: 5px;
+    width: 45%;
+}
+
+.tipos_energy div > img {
+    background-color: #257;
+    width: 100px;
+    height: 100px;
 }
 
 .checkbtn {
@@ -179,7 +202,7 @@ a.logo:hover, nav a:hover {
         color: blue;
     }
 
-    .fonte_img div {
+    .fonte_img a {
         height: 45vh;
     }
 }
@@ -189,7 +212,7 @@ a.logo:hover, nav a:hover {
         color: yellow;
     }
 
-    .fonte_img {
+    .fonte_img a {
         height: 50vh;
         width: 15vw;
     }
