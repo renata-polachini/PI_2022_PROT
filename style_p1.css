@@ -86,7 +86,7 @@ a.logo:hover, nav a:hover {
 }
 
 #content {
-    border: 1px solid #000;
+    border: 1px solid #FFF;
     margin: 0 10vw;
 }
 
@@ -120,14 +120,9 @@ a.logo:hover, nav a:hover {
     transition: .4s;
 }
 
-.fonte_img img {
-    justify-content: space-between;
-}
-
 .tipos_energy {
-    border: 1px solid #000;
+    border: 1px solid #FFF;
     margin: 0 10vw;
-    height: 2000px;
 }
 
 .tipos_energy h1 {
@@ -144,8 +139,38 @@ a.logo:hover, nav a:hover {
 
 .tipos_energy div > img {
     background-color: #257;
-    width: 100px;
-    height: 100px;
+    width: 45vw;
+    height: 400px;
+}
+
+.tipos_energy div {
+    display: inline-block;
+}
+
+.beneficios {
+    border: 1px solid #FFF;
+    margin: 0 10vw;
+}
+
+.beneficios h1 {
+    margin: 5vh 0 0 0;
+    font-size: 2.5em;
+    margin-top: 10vh;
+}
+
+.beneficios h1, h3 {
+    text-align: center;
+    display: block;
+    color: #257;
+}
+
+.beneficios ul {
+    margin-top: 5vh;
+    text-align: center;
+}
+
+.beneficios li {
+    list-style: none;
 }
 
 .checkbtn {
@@ -162,7 +187,7 @@ a.logo:hover, nav a:hover {
 
 @media (max-width: 500px) {
     .logo {
-        color: aqua;
+        /*color: aqua;*/
     }
 
     #start .start_intro {
@@ -184,6 +209,10 @@ a.logo:hover, nav a:hover {
     #start .buttom_down {
         width: 10vw;
     }
+
+    .tipos_energy div > p {
+        width: 100%;
+    }
 }
 
 
@@ -193,13 +222,13 @@ a.logo:hover, nav a:hover {
     };
 
     .logo {
-        color: red;
+        /*color: red;*/
     }
 }
 
 @media (min-width: 1300px) {
     .logo {
-        color: blue;
+        /*color: blue;*/
     }
 
     .fonte_img a {
@@ -209,7 +238,7 @@ a.logo:hover, nav a:hover {
 
 @media (min-width: 1600px) {
     .logo {
-        color: yellow;
+        /*color: yellow;*/
     }
 
     .fonte_img a {
